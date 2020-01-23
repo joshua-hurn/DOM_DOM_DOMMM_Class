@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.id-display {
+    color: white;
+    display: none;
+}
+
+.square:hover .id-display {
+    display: block;
+}
